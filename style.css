@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: "PP Acma";
+    background-color: #000;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20%;
+    object-fit: cover;
+    z-index: 3;
+}
+#imgs{
+    padding-bottom: 0%;
+}
+
+#card{
+    background-color: #ffa7a7;
+}
+
+#concreate{
+    background-color: #f79c16;
+}
+
+#drywall{
+    background-color: #fae8ce;
+}
+
+#selfdrill{
+    background-color: #9feecc;
+}
+
+#selftap{
+    background-color: #4d90ab;
+}
+
+#wood{
+    background-color: #f4b400;
+}
+
+#text-in1, #text-in2, #text-in3, #text-in4, #text-in5{
+    text-align: center;
+    font-size: 100px;
+    z-index: 2;
+}
+
+#text-in1{
+    color: #efddaa;
+}
+#text-in2{
+    color: #301502;
+}
+#text-in3{
+    color: #401688;
+}
+#text-in4{
+    color: #ffebcd;
+}
+#text-in5{
+    color: #3d2b00;
+}
+#card-text{
+    display: flex;
+    justify-content: center;
+    margin: 250px;
+    font-size: 150px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2em;
+    z-index: 2;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero h1{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 400;
+    font-size: 200px;
+    color: #fff;
+    letter-spacing: -8px;
+    line-height: 80%;
+}
+
+.card.scroll{
+    position: relative;
+    background-color: black;
+}
+
+.img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 700px;
+}
+
+.footer{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.footer h1{
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: -2px;
+}
